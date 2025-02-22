@@ -14,6 +14,14 @@ Use `git log` to view the commit history:
 ```bash
 git log
 ```
+List all commit
+```bash
+git log --oneline --graph --decorate --all
+```
+Show commit change code
+```bash
+git show commit_hash
+```
 - Look for suspicious commit messages like "cleanup", "fix comments", or "refactor code".
 
 ### 3. Find Changes in Specific Functions
